@@ -1,0 +1,16 @@
+<h2 *ngIf="player$ | async as player; else loading" class="my-4" [appOnlineStatus]="player.online">Profile for {{ player.id }}</h2>
+
+<dl *ngIf="player$ | async as player">
+  <dt>Name</dt>
+  <dd class="lead">{{ player.name }}</dd>
+
+  <dt>Score</dt>
+  <dd class="lead">{{ player.score | percent : '1.1-1' }}</dd>
+
+  <dt>Gems</dt>
+  <dd class="lead">{{ player.gems | join }}</dd>
+</dl>
+
+<ng-template #loading>
+  <p class="my-4">Loading&hellip;</p>
+</ng-template>

@@ -1,0 +1,22 @@
+<h1 class="my-4 text-center">Gem Finder</h1>
+
+<nav class="nav nav-pills nav-fill">
+  <a class="nav-link" routerLink="players" routerLinkActive="active">
+    <i class="bi bi-people-fill"></i>
+  </a>
+
+  <a class="nav-link" routerLink="leaderboards" routerLinkActive="active">
+    <i class="bi bi-trophy-fill"></i>
+  </a>
+
+  <a class="nav-link position-relative" routerLink="messages" routerLinkActive="active">
+    <i class="bi bi-inbox-fill"></i>
+    <span *ngIf="messageService.count()">&nbsp;({{ messageService.count() }})</span>
+  </a>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer class="position-absolute bottom-0 start-0 w-100 my-3 text-center">
+  <small class="fs-6">{{ appFooter }}</small>
+</footer>

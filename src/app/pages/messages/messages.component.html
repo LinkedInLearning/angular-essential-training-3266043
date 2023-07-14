@@ -1,0 +1,14 @@
+<ul *ngIf="messageService.count(); else empty" class="list-group list-group-flush my-4">
+  <li *ngFor="let item of messageService.unread()" class="list-group-item">
+    <div class="d-flex w-100 justify-content-between">
+      <span>{{ item.message }}</span>
+      <i class="bi bi-x-square-fill" (click)="messageService.delete(item)"></i>
+    </div>
+  </li>
+</ul>
+
+<ng-template #empty>
+  <ul class="list-group list-group-flush my-4">
+    <li class="list-group-item">No new messages</li>
+  </ul>
+</ng-template>

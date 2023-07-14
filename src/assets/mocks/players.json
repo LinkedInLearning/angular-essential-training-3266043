@@ -1,0 +1,114 @@
+[
+  {
+    "name": "Johnny Allen",
+    "id": "jallen5664",
+    "score": 0.4442,
+    "online": true,
+    "gems": ["Ruby", "Sapphire", "Diamond", "Emerald"]
+  },
+  {
+    "name": "Jacqueline Brewer",
+    "id": "jbrewer3671",
+    "score": 0.811,
+    "online": false,
+    "gems": ["Topaz", "Quartz", "Ruby", "Diamond"]
+  },
+  {
+    "name": "Maria Greene",
+    "id": "mgreene7298",
+    "score": 0.9472,
+    "online": false,
+    "gems": ["Emerald", "Diamond", "Topaz"]
+  },
+  {
+    "name": "Theresa Mitchell",
+    "id": "tmitchell4570",
+    "score": 0.2588,
+    "online": true,
+    "gems": ["Ruby", "Diamond", "Quartz", "Sapphire", "Topaz"]
+  },
+  {
+    "name": "Michael Davis",
+    "id": "mdavis2396",
+    "score": 0.8000,
+    "online": false,
+    "gems": ["Sapphire", "Diamond", "Topaz"]
+  },
+  {
+    "name": "Crystal Hansen",
+    "id": "chansen5678",
+    "score": 0.3312,
+    "online": false,
+    "gems": ["Quartz", "Diamond", "Emerald"]
+  },
+  {
+    "name": "Gloria Cooper",
+    "id": "gcooper1128",
+    "score": 0.9176,
+    "online": true,
+    "gems": ["Emerald", "Ruby", "Sapphire", "Topaz"]
+  },
+  {
+    "name": "Kelly Davis",
+    "id": "kdavis8408",
+    "score": 0.5840,
+    "online": false,
+    "gems": ["Diamond", "Sapphire", "Topaz"]
+  },
+  {
+    "name": "Ty Taylor",
+    "id": "ttaylor3665",
+    "score": 0.7590,
+    "online": false,
+    "gems": ["Quartz", "Diamond"]
+  },
+  {
+    "name": "Brooklyn Paquette",
+    "id": "bpaquette4314",
+    "score": 0.2259,
+    "online": false,
+    "gems": ["Sapphire", "Emerald", "Topaz"]
+  },
+  {
+    "name": "Sebastian Belanger",
+    "id": "sbelanger9773",
+    "score": 0.3050,
+    "online": false,
+    "gems": ["Diamond", "Ruby"]
+  },
+  {
+    "name": "Callie Cote",
+    "id": "ccote2330",
+    "score": 0.370,
+    "online": true,
+    "gems": ["Quartz", "Topaz"]
+  },
+  {
+    "name": "Nate Levesque",
+    "id": "nlavesque8800",
+    "score": 0.6234,
+    "online": true,
+    "gems": ["Sapphire", "Diamond", "Emerald", "Topaz"]
+  },
+  {
+    "name": "Camden Chan",
+    "id": "cchen3585",
+    "score": 0.8672,
+    "online": false,
+    "gems": ["Emerald", "Topaz"]
+  },
+  {
+    "name": "Elliot Gauthier",
+    "id": "egauthier6778",
+    "score": 0.7607,
+    "online": true,
+    "gems": ["Diamond", "Quartz", "Ruby", "Topaz"]
+  },
+  {
+    "name": "Gavin Paquette",
+    "id": "gpaquette7484",
+    "score": 0.2397,
+    "online": true,
+    "gems": ["Sapphire", "Emerald", "Diamond", "Topaz"]
+  }
+]
