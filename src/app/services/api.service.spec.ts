@@ -5,7 +5,7 @@ import { of } from 'rxjs';
 import { Player } from '../interfaces/player';
 import { ApiService } from './api.service';
 
-fdescribe('ApiService', () => {
+describe('ApiService', () => {
   let httpClient: HttpClient;
   let service: ApiService;
 
