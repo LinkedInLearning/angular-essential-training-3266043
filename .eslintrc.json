@@ -15,6 +15,9 @@
         "plugin:@angular-eslint/template/process-inline-templates"
       ],
       "rules": {
+        "@typescript-eslint/no-explicit-any": 0,
+        "@angular-eslint/no-inputs-metadata-property": 0,
+        "@angular-eslint/no-outputs-metadata-property": 0,
         "@angular-eslint/directive-selector": [
           "error",
           {
@@ -41,7 +44,10 @@
         "plugin:@angular-eslint/template/recommended",
         "plugin:@angular-eslint/template/accessibility"
       ],
-      "rules": {}
+      "rules": {
+        "@angular-eslint/template/click-events-have-key-events": 0,
+        "@angular-eslint/template/interactive-supports-focus": 0
+      }
     }
   ]
 }

@@ -35,4 +35,4 @@ export class MessageService {
       return items.filter((item) => item.id !== selected.id);
     });
   }
-};
+}
