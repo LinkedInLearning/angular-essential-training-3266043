@@ -16,8 +16,6 @@
       ],
       "rules": {
         "@typescript-eslint/no-explicit-any": 0,
-        "@angular-eslint/no-inputs-metadata-property": 0,
-        "@angular-eslint/no-outputs-metadata-property": 0,
         "@angular-eslint/directive-selector": [
           "error",
           {
@@ -41,13 +39,9 @@
         "*.html"
       ],
       "extends": [
-        "plugin:@angular-eslint/template/recommended",
-        "plugin:@angular-eslint/template/accessibility"
+        "plugin:@angular-eslint/template/recommended"
       ],
-      "rules": {
-        "@angular-eslint/template/click-events-have-key-events": 0,
-        "@angular-eslint/template/interactive-supports-focus": 0
-      }
+      "rules": {}
     }
   ]
 }
